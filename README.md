@@ -229,5 +229,4 @@ docker stop repo2docker docker rm repo2docker
 ```
 
 ## Support
-
 If you want to get help please [post an issue!](https://www.github.com/vsoch/repo2docker-julia/issues)
