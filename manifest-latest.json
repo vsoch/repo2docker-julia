@@ -1,0 +1,136 @@
+[
+    {
+        "Id": "sha256:2d1c91ae8db8da403de0fb881c2687d7d9da71fe309a36adfafccf20ac474b7c",
+        "RepoTags": [
+            "vanessa/repo2docker-julia:dd8f4252fa"
+        ],
+        "RepoDigests": [],
+        "Parent": "",
+        "Comment": "",
+        "Created": "2018-08-06T15:30:23.925268806Z",
+        "Container": "0bb89427cba157d767c9a7b13ba7e6064ccfc77f7e7356bc5ebf5e6e272c6b7b",
+        "ContainerConfig": {
+            "Hostname": "0bb89427cba1",
+            "Domainname": "",
+            "User": "joyvan",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "8888/tcp": {}
+            },
+            "Tty": true,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/srv/conda/bin:/srv/julia/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "LC_ALL=en_US.UTF-8",
+                "LANG=en_US.UTF-8",
+                "LANGUAGE=en_US.UTF-8",
+                "SHELL=/bin/bash",
+                "USER=joyvan",
+                "HOME=/home/joyvan",
+                "APP_BASE=/srv",
+                "CONDA_DIR=/srv/conda",
+                "NB_PYTHON_PREFIX=/srv/conda",
+                "JULIA_PATH=/srv/julia",
+                "JULIA_HOME=/srv/julia/bin",
+                "JULIA_PKGDIR=/srv/julia/pkg",
+                "JULIA_VERSION=0.6.0",
+                "JUPYTER=/srv/conda/bin/jupyter"
+            ],
+            "Cmd": [
+                "/bin/bash"
+            ],
+            "ArgsEscaped": true,
+            "Image": "vanessa/repo2docker-julia:dd8f4252fa",
+            "Volumes": null,
+            "WorkingDir": "/home/joyvan",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": {}
+        },
+        "DockerVersion": "17.09.0-ce",
+        "Author": "",
+        "Config": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "joyvan",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "8888/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/srv/conda/bin:/srv/julia/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "LC_ALL=en_US.UTF-8",
+                "LANG=en_US.UTF-8",
+                "LANGUAGE=en_US.UTF-8",
+                "SHELL=/bin/bash",
+                "USER=joyvan",
+                "HOME=/home/joyvan",
+                "APP_BASE=/srv",
+                "CONDA_DIR=/srv/conda",
+                "NB_PYTHON_PREFIX=/srv/conda",
+                "JULIA_PATH=/srv/julia",
+                "JULIA_HOME=/srv/julia/bin",
+                "JULIA_PKGDIR=/srv/julia/pkg",
+                "JULIA_VERSION=0.6.0",
+                "JUPYTER=/srv/conda/bin/jupyter"
+            ],
+            "Cmd": [
+                "/bin/bash"
+            ],
+            "ArgsEscaped": true,
+            "Image": "",
+            "Volumes": null,
+            "WorkingDir": "/home/joyvan",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": {}
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 2400835870,
+        "VirtualSize": 2400835870,
+        "GraphDriver": {
+            "Data": null,
+            "Name": "aufs"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:f1b91f8d903cf1125f78407b85f7513a427bfc69d851fff778461e53cc58acce",
+                "sha256:d5ce7f24606728e4b34df8c844ca1fad74d24fcc11c3e4a3b38d117077ed6807",
+                "sha256:5251addbe073e88088288790f450f853171ac333296b6049f694270f7544fc2f",
+                "sha256:41f50d293d3afbe39e131f402644cc586952d5075d0252776194e4b82a6411a4",
+                "sha256:b3c5147f2ed120fe124b06bb4dbb713605431d2f54b33438d08a592d6dbdc704",
+                "sha256:406ddf3f981456345797332bd270c954e553aca544facf92e5355beb9c25711b",
+                "sha256:fad2cc1e78ec1b5255f808388e46fb976ddd789571cee0f666de1b48b71cbd6a",
+                "sha256:4ff60368cd8f409b581b2f75c8da26af0b56a375074e8130ecc3f82acdad5d52",
+                "sha256:abed79db821a2933bd0513a20d20c34775f1908f47e4d97fe2d8839b2811f66d",
+                "sha256:ee7f9a832ce085091807d44ee2b15aeff6e45a7c484fd73135063b1fab767d5a",
+                "sha256:60804f3091ade32cd436b4584023e3d5cef8f31e413edf0c4a3aa6965d45345e",
+                "sha256:11dd49196df8e3ef8a87a32a19aa410537b1e95af2b6c49a530792e6740a0e7f",
+                "sha256:96ee3992ba127d73f96e27ad35761fcb5e3564476612ec45819cac1a06ee3575",
+                "sha256:b788e948c2c318f971e6dcba384c031e51b090aa669d31a032f409bc211bf21b",
+                "sha256:edc093bf16528e127388670c7c9c4c56d67dc5758656b92c2c7cf6ab63f34c0a",
+                "sha256:a1cbd6e49429d8f5e5ec12f82ab2e0f5ea62902b545c1f4f6be786f932c5fff5",
+                "sha256:efd5846f9aa40299849c85ee8e1d713dce12b13764029784b6ea31ae2c32401f",
+                "sha256:05d2822271fcf4ed515eb40450e73f66cea56464610f1c4b55889bdab7561a86",
+                "sha256:df788571d1effc956d36ee3a2c6b57fea4f5dc279f0c4b864efe9382757634f4",
+                "sha256:06345fc079b19239e7b05c9c7de948e39aca6a05c1bb68864e9101d8a17aec18",
+                "sha256:ed2a060db6028fc4d3c12923282f0b9daba6ad41ad6ffe23dbaefe47ec74430e",
+                "sha256:9dbfdb8a9db268fef6d38f95bc0dba3882329efb7d8d33b5de3b9a8ef125bacf",
+                "sha256:4d6479edbcee2ceab466391e023c47d497234459a3225ac5f50cf988f1eb6217"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "0001-01-01T00:00:00Z"
+        }
+    }
+]
